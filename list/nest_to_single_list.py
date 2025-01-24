@@ -8,3 +8,4 @@ while stack:
     else:
         new_list.append(element)
 print(new_list)
+

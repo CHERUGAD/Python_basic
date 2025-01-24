@@ -14,3 +14,4 @@ while i<len(List_1):
         new3.append(List_1[i])
     i+=1
 print(f"{new1}\n{new2}\n{new3}")
+
