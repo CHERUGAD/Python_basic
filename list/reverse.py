@@ -15,3 +15,13 @@ list4 = []
 for i in range(len(list3)):
     list4.append(list3[-(i + 1)])  # Correct negative indexing
 print(list4)
+
+#Using reversed method for reversing
+list5=[9,8,7,6,5]
+list6=list(reversed(list5))
+print(list6)
+
+#Using slice method for reversing
+list7=[9,8,7,6,5]
+list8=list7[::-1]
+print(list8)
