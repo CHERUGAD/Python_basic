@@ -11,7 +11,6 @@ print(list2)
 list11 = [1, 2, 3, 4]
 list22 = 0
 i = 0
-
 while i < len(list11):
     list22 += list11[i]  # Add current element to list2
     i += 1  # Increment index
