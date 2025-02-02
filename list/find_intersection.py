@@ -10,3 +10,13 @@ while i<len(list_1):
             break
     i+=1
 print(new_list)
+
+#Using for loop
+list3=[1,2,3,4,5]
+list4=[2,5,6,7]
+new=[]
+for i in list3:
+    for j in list4:
+        if i==j:
+            new.append(i)
+print(new)
