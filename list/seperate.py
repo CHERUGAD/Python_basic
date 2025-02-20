@@ -23,3 +23,5 @@ for i in list1:
         list3.append(list1[i])
     i+=1
 print(list2,list3)
+
+
